@@ -1,14 +1,4 @@
-/**
-* Template Name: iPortfolio
-* Updated: Jan 29 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -33,9 +23,6 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -66,9 +53,7 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+
 #header {
   position: fixed;
   top: 0;
@@ -153,10 +138,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Desktop Navigation */
+
 .nav-menu {
   padding: 30px 0 0 0;
 }
@@ -235,9 +217,7 @@ h6 {
   left: 0;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+
 #hero {
   width: 100%;
   height: 100vh;
@@ -287,24 +267,24 @@ h6 {
 
 }
 #ideas {
-  position: fixed; /* Sayfanın sabit bir kısmına yapışık kalacak */
-  top: 10px; /* Sayfanın en üstünden 10 piksel aşağıda */
-  right: 10px; /* Sayfanın en sağından 10 piksel içeride */
-/* Arka plan rengi */
-  padding: 10px; /* İçeriğin etrafındaki boşluk */
-  border-radius: 5px; /* Köşelerin yuvarlatılması */
-  box-shadow: 0 2px 5px rgba(249, 2, 2, 0.1); /* Gölge efekti */
+  position: fixed; 
+  top: 10px; 
+  right: 10px; 
+
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(249, 2, 2, 0.1); 
 }
 
 #ideas h2 {
-  margin-bottom: 5px; /* Başlık ile metin arasındaki boşluk */
-  font-size: 24px; /* Başlık font boyutu */
+  margin-bottom: 5px; 
+  font-size: 24px; 
 }
 
 #ideas p {
-  margin: 0; /* Paragrafın kenar boşluğunu sıfırla */
-  font-size: 16px; /* Metin font boyutu */
-  color: #e20d0d; /* Metin rengi */
+  margin: 0;
+  font-size: 16px;
+  color: #e20d0d;
 }
 
 
@@ -327,9 +307,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -367,9 +344,6 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -402,9 +376,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------*/
+
 .facts {
   padding-bottom: 30px;
 }
@@ -490,9 +462,6 @@ section {
   background-color: #149ddd;
 }
 
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -1048,9 +1017,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
+
 .breadcrumbs {
   padding: 20px 0;
   background: #f9f9f9;
@@ -1095,36 +1062,5 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  padding: 15px;
-  color: #f4f6fd;
-  font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  z-index: 9999;
-  background: #040b14;
-}
 
-#footer .copyright {
-  text-align: center;
-}
 
-#footer .credits {
-  padding-top: 5px;
-  text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
-}
-
-@media (max-width: 1199px) {
-  #footer {
-    position: static;
-    width: auto;
-    padding-right: 20px 15px;
-  }
-}
